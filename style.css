@@ -129,12 +129,14 @@ line-height: 24px;
     max-width: 1140px;
     height: 271px;
     margin-top: 48px;
+    overflow-y: hidden;
 }
 .slide {
     z-index: 3;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 
 }
 .news_content_blocks {
