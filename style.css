@@ -202,7 +202,7 @@ line-height: 24px;
     height: 243px;
     width: 349px;
     right:0px;
-    bottom:0px;
+    top:38px;
     background: #6F61A0;;
 }
 .news {
@@ -273,12 +273,6 @@ margin-left: 33px;
    
 }
 @media screen and (max-width:1200px) {
-    .red_block {
-        display: none;
-    }
-    .violet_block {
-        display: none;
-    }
     .slider {
         height: 300px;
     }
@@ -412,6 +406,9 @@ margin-left: 33px;
     }
 }
 @media screen and (max-width:440px) {
+    .violet_block {
+    top:20px;
+    }
     .content_block {
         padding: 10px 15px 10px 15px!important;
     }

@@ -116,3 +116,43 @@
             $(".content_block").width(width/6.6);
         }
     });
+    $(document).ready(function(){
+        $(window).resize(function(){
+     if ($(window).width()<1200){
+         let widthSlideBlock = $('.content_block').width()
+         let heightSlideBlock = $('.content_block').height()
+         $('.red_block').width(widthSlideBlock+58)
+         $('.red_block').height(heightSlideBlock+58)
+         $('.violet_block').width(widthSlideBlock+58)
+         $('.violet_block').height(heightSlideBlock+58)
+         
+     }
+     if ($(window).width()<441) {
+        let widthSlideBlock = $('.content_block').width()
+        let heightSlideBlock = $('.content_block').height()
+        $('.red_block').width(widthSlideBlock+30)
+        $('.red_block').height(heightSlideBlock+30)
+        $('.violet_block').width(widthSlideBlock+30)
+        $('.violet_block').height(heightSlideBlock+30)
+        
+     }
+    })
+    if ($(window).width()<1200){
+         let widthSlideBlock = $('.content_block').width()
+         let heightSlideBlock = $('.content_block').height()
+         $('.red_block').width(widthSlideBlock+58)
+         $('.red_block').height(heightSlideBlock+58)
+         $('.violet_block').width(widthSlideBlock+58)
+         $('.violet_block').height(heightSlideBlock+58)
+         
+     }
+     if ($(window).width()<441) {
+        let widthSlideBlock = $('.content_block').width()
+        let heightSlideBlock = $('.content_block').height()
+        $('.red_block').width(widthSlideBlock+30)
+        $('.red_block').height(heightSlideBlock+30)
+        $('.violet_block').width(widthSlideBlock+30)
+        $('.violet_block').height(heightSlideBlock+30)
+        
+     }
+    })
